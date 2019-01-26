@@ -1,6 +1,6 @@
 # LifeSciHack2019
 
-![Hackathon](docs/hackathon_banner.png)
+![Hackathon](imgs/LifeSciHack_Banners_Page_04.png)
 Welcome to the submission repository for the LifeSciHack 2019!
 
 ## Gitter
@@ -24,7 +24,7 @@ Members of the lifescihack team will be able to point other participants to your
 
 Issue events will also be pulled into the Slack feed [Slack](lifescihack2019.slack.com) which is a better place for more general discussion and chatting.
 
-### 2) Build with LifeSciHack2019
+### 2) Build with LifeSciHack 2019
 Work on your project as you like. How you work is up to you; We recommend creating a new GitHub repo for your team. Remember to only begin working on your project after the hackathon begins on February 1st!
 
 Use the issue you created in step 1 to let others know where your project lives. You might want discuss any technical challenges or attract additional teammembers.
@@ -32,9 +32,9 @@ Use the issue you created in step 1 to let others know where your project lives.
 Wherever you work, remember that your project should include an **Open Source License** of [some form](https://opensource.org/licenses), and should be accessible to everyone after the submission deadline.
 
 ### 3) Fork and PR
-When you feel ready to submit, create a new fork of the colonyHackathon repo, and add your project as a markdown file inside `LifeSciHack2019/submissions/`.
+When you feel ready to submit, create a new fork of the LifeSciHack repo, and add your project as a markdown file inside `LifeSciHack2019/submissions/`.
 
-You can use `submissions/exampleProject.md` as a template if you like.
+You can use `submissions/EXAMPLE.md` as a template if you like.
 
 Be sure that your project's folder links to the repo you've been working in, and contains any other supporting materials that you want evaluated by judges (such as links to a pitch deck or demo video).
 
