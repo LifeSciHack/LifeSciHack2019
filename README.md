@@ -18,11 +18,28 @@ Here’s how it works:
 ### 1) Create an issue
 Your first step is to create an issue in the `LifeSciHack2019` repository. This issue acts as a "soft" registration for the hackathon, and can help you to coordinate your ideas with other participants. An issue is a good place to talk openly about your project ideas with others before you decide on its exact scope.
 
+You can find the issue tab at the top of this repo. 
+
+![](./imgs/instruction_4.png)
+
+Here you can view all project submission ideas:
+
+![](./imgs/instruction_3.png)
+
+Create the Issue:
+
+![](./imgs/instruction_2.png)
+
+Submit the Proposal
+
 Use your issue to talk with collaborators, brainstorm, and organize. Check out the other issues to see if there are participants who want to work on the same things.
 
 Members of the lifescihack team will be able to point other participants to your issue (if it looks like they can help), help you with technical questions, or just offer support :)
 
 Issue events will also be pulled into the Slack feed [Slack](lifescihack2019.slack.com) which is a better place for more general discussion and chatting.
+
+![](./imgs/instruction_6.png)
+
 
 ### 2) Build with LifeSciHack 2019
 Work on your project as you like. How you work is up to you; We recommend creating a new GitHub repo for your team. Remember to only begin working on your project after the hackathon begins on February 1st!
@@ -33,6 +50,10 @@ Wherever you work, remember that your project should include an **Open Source Li
 
 ### 3) Fork and PR
 When you feel ready to submit, create a new fork of the LifeSciHack repo, and add your project as a markdown file inside `LifeSciHack2019/submissions/`.
+
+You can find the fork button at the top right of this repo. 
+
+![](./imgs/instruction_4.png)
 
 You can use `submissions/EXAMPLE.md` as a template if you like.
 
