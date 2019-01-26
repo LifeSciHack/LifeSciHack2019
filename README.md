@@ -36,7 +36,7 @@ Use your issue to talk with collaborators, brainstorm, and organize. Check out t
 
 Members of the lifescihack team will be able to point other participants to your issue (if it looks like they can help), help you with technical questions, or just offer support :)
 
-Issue events will also be pulled into the Slack feed [Slack](lifescihack2019.slack.com) which is a better place for more general discussion and chatting.
+Issue events will also be pulled into the Slack feed [Slack](lifescihack2019.slack.com) which is a better place for more general discussion and chatting in the `#active-projects` channel! 
 
 ![](./imgs/instruction_6.png)
 
@@ -55,7 +55,38 @@ You can find the fork button at the top right of this repo.
 
 ![](./imgs/instruction_4.png)
 
-You can use `submissions/EXAMPLE.md` as a template if you like.
+Click the Fork Button and fork it to your github account (make sure to have a github account!):
+
+![](./imgs/instruction_5.png)
+
+Lets Create the new file for your project submission. 
+
+![](./imgs/instruction_9.png)
+
+You can use `submissions/EXAMPLE.md` as a template if you like for what your project would look like. 
+
+![](./imgs/instruction_10.png)
+
+When you are ready to submit your file you will open up a new pull request:
+
+![](./imgs/instruction_11.png)
+
+Here you can view the changes you've made to the file and how you will be submitting your project
+
+![](./imgs/instruction_12.png)
+
+When you are ready to submit a proposal open up a pull request and submit your project before noon!
+
+![](./imgs/instruction_13.png)
+
+Upon submission you should see this final submission page.
+
+![](./imgs/instruction_14.png)
+
+It is also logged through slack!
+
+![](./imgs/instruction_15.png)
+
 
 Be sure that your project's folder links to the repo you've been working in, and contains any other supporting materials that you want evaluated by judges (such as links to a pitch deck or demo video).
 
