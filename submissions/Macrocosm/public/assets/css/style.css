@@ -7,6 +7,7 @@ body {
   
   header {
     width: 100%;
+    padding-bottom: 95px;
   }
   
   ul {
@@ -21,6 +22,7 @@ body {
   #nav_bar li {
     display: inline-block;
     padding: 8px;
+    font-size: 14.5px;
   }
   
   #nav_bar #sign_in {
@@ -28,7 +30,7 @@ body {
     margin-right: 25px;
     padding: 7px 15px;
     border-radius: 3px; 
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   
   .nav-links {
@@ -57,18 +59,20 @@ body {
     display: block;
     margin: 0 auto;
     clear: both;
-    padding-top: 35px;
-    padding-bottom: 22px;
+    /* padding-top: 35px; */
+    /* padding-bottom: 28px; */
   }
   
   .form {
     text-align: center;
+    padding-top: 28px;
+
   }
   
   #form-search { 
     width: 450px;
     line-height: 32px;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
   }
   
   .form #form-search {
