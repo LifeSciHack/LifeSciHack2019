@@ -22,17 +22,8 @@ This web-based application is intended to be run on touch-enabled devices which 
 <a href= 'https://github.com/fraher/AnalysisTool'>Fish Dreams Analysis Tool</a>
 
 **Demo Images**:
-<p align="center">
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/StartPage.png" width="350"/>
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/StroopTest.png" width="350"/>  
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/AssessmentQuestion.png" width="350"/>
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/SharingPage.png" width="350"/>
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/ReportsPage.png" width="350"/>
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/MoodPage.png" width="350"/>
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/CorsiBlocks.png" width="350"/>
-  <img src="https://github.com/fraher/AnalysisTool/tree/master/AnalysisTool/Demo%20Images/CompletedAssessment.png" width="350"/>
+<a href= 'https://github.com/fraher/AnalysisTool/blob/master/AnalysisTool/Demo%20Images/'>Images</a>
   
-</p>
 
 **Development**
 The software is designed to be a mobile-first responsive web application.
