@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let longLat;
-    const searchTerms=["coughing", "runny Nose", "sore throat"]
+    const searchTerms=["coughing", "runny nose", "sore throat"]
 const getGeolocation = Ip => {
     let IpGeocodeRequest = `http://api.ipstack.com/65.205.72.122?access_key=dff1b5fbf5a0ff3e24b3f3d24e8b0cd8`;
     $.get(IpGeocodeRequest, data=>{
