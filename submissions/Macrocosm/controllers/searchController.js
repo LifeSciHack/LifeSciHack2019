@@ -8,7 +8,7 @@ end.setHours(23,59,59,999);
 // Defining methods for the booksController
 module.exports = {
   findAll: function(req, res) {
-    db.Search.find({date: {$gte: start, $lt: end}}).sort({date:-1})
+    db.Search.find().sort({date:-1})
 
       // Specify that we want to populate the retrieved users with any associated notes
       // .populate({ path: "Search", options: { sort: { date: -1 } } })

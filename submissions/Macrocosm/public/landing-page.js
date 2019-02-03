@@ -1,6 +1,8 @@
+// import { debug } from "util";
+
 $(document).ready(function() {
     let longLat;
-    const searchTerms=["coughing", "runny nose", "sore throat"]
+    const searchTerms=['body aches','chills','congested','cough','diarrhea','dry cough','fatigued','fever','feverish','flu','head hurts','headache','hurts','muscle ache','runny nose','sick','sneezing','sore throat','stuffy nose','the cold','virus','vomiting','weak']
 const getGeolocation = Ip => {
     let IpGeocodeRequest = `http://api.ipstack.com/65.205.72.122?access_key=dff1b5fbf5a0ff3e24b3f3d24e8b0cd8`;
     $.get(IpGeocodeRequest, data=>{
@@ -14,13 +16,13 @@ const getGeolocation = Ip => {
 
 getGeolocation();
 
-$(".submit").on("click", function(event) {
+$(".fa-search").on("click", function(event) {
   event.preventDefault();
   if (
-    $(".search").val() !== ""
+    $("#form-search").val() !== ""
   ) {
     var searchQuery = {
-      searchTerm: $(".search")
+      searchTerm: $("#form-search")
         .val()
         .trim(),
        geolocation: longLat
@@ -29,11 +31,13 @@ $(".submit").on("click", function(event) {
     };
    
     var splitTerms = searchQuery.searchTerm.toLowerCase().split(" ");
-    
     for( var i =0; i< splitTerms.length; i++){
+      
         if( searchTerms.indexOf(splitTerms[i]) != -1 ){
+          
             $.post("/api/search", searchQuery, function(data) {
-                console.log(data)
+              
+                console.log("Flu symptom search captured")
               });
         }
     }

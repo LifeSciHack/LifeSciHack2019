@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <title>Macrocosm Landing Page</title>
-  
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="./assets/img/dog.png">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
-  
+  <title>Macrocosm</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>Search Term:<br>
-  <input type="text" class="search" >
-  <input type="submit" value="Search" class="submit"></body>
 
+<body>
+  <header>
+    <nav>
+      <ul id="nav_bar">
+        <li class="nav-links" id="gmail"><a href="#">Mozilla</a></li>
+        <li class="nav-links"><a href="#">Images</a></li>
+        <li id="sign_in"><a href="#">Sign In</a></li>
+      </ul>  
+    </nav>  
+  </header>
   
- 
+  <div class="logo">
+    <a href="#" id="firefoxLogo"><img src="https://www.geek.com/g00/3_c-6bbb.ljjp.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fbbb.ljjp.htrx2fbu-htsyjsyx2fzuqtfix78x2f7566x2f67x2frtenqqf-qtlt8.oulx3fn65h.rfwpx3dnrflj_$/$/$/$/$/$" alt="mozilla firefox logo" style="width:230px;height: 230px"/></a>
+  </div>
+  
+  <!-- FORM SEARCH -->  
+  <div class="form">  
+    <form>
+      <label for="form-search"></label>
+      <input type="text" id="form-search" placeholder="Search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>  
+  
+  <!-- <div class= "buttons">  
+    <input type="submit" value="Google Search" id="google_search">
+    <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+  </div> -->
+  
+  <br><br><br>
+
+  <footer>
+      <ul class="footer-left">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li> 
+      </ul>
+      <ul class="footer-right">    
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>       
+  </footer>   
+  <script src="./landing-page.js"></script>   
 </body>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="./landing-page.js"></script>
 </html>
