@@ -63,6 +63,9 @@ body {
     /* padding-bottom: 28px; */
   }
   
+  #firefoxLogo{
+      width: 230px;
+  }
   .form {
     text-align: center;
     padding-top: 28px;
