@@ -1,0 +1,225 @@
+/* BASIC STYLES */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    padding-bottom: 95px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* NAV BAR */
+  #nav_bar {
+    float: right;
+  }
+  
+  #nav_bar li {
+    display: inline-block;
+    padding: 8px;
+    font-size: 14.5px;
+  }
+  
+  #nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    /* font-weight: bold; */
+  }
+  
+  .nav-links {
+    color: #404040;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #sign_in:hover { 
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  #sign_in {
+    color: #fff;
+  }
+  
+  .logo #firefoxLogo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    /* padding-top: 35px; */
+    /* padding-bottom: 28px; */
+  }
+  
+  #firefoxLogo{
+      width: 230px;
+  }
+  .form {
+    text-align: center;
+    padding-top: 28px;
+
+  }
+  
+  #form-search { 
+    width: 450px;
+    line-height: 32px;
+    /* padding: 20px 10px; */
+  }
+  
+  .form #form-search {
+    padding: 0 8px;
+  }
+  
+  /*#form-search:hover {
+    border-color: #e4e4e4;
+    padding-top: 0;
+  }*/
+  
+  .fa{
+    padding-top:10px;
+    padding-bottom:9px;
+    padding-right:5px;
+    padding-left:5px;
+  /*   background-color:blue; */
+  }
+  
+  /* .buttons {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 300px;
+  } */
+  
+  footer  {
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    
+  }
+  
+  footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+  
+  @media screen and (max-width: 400px) {
+   
+   li.nav-links a {
+      display: none;
+    }
+    
+   #firefoxLogo {
+     padding: 0;
+   }
+    
+   /* .buttons {
+     display: none;
+   } */
+    
+   #form-search {
+     width: 80%;
+  
+   }
+    
+   footer {
+     bottom: 0;
+   }
+    
+   footer ul {
+     float: none;
+     padding-bottom: 2px;
+      
+   }
+    
+   .footer-left {
+     text-align: center;
+     margin: auto; 
+     padding-top: 10px;
+      
+   }
+    
+   .footer-right {
+     float: none;
+     text-align: center;
+     
+   }
+  }
+  
+  @media screen and (max-width: 565px) {
+   
+    li.nav-links a {
+      display: none;
+    }
+    
+    
+   #firefoxLogo {
+     padding: 0;
+   }
+    
+   /* .buttons {
+     display: none;
+   } */
+    
+   #form-search {
+     width: 80%;
+  
+   }
+    
+   footer {
+  /*    bottom: 0;
+     postion: absolute; */
+     position:absolute;
+     bottom:0;
+     width:100%;
+     height:60px;
+   }
+    
+   footer ul {
+     float: none;
+     padding-bottom: 2px;
+      
+   }
+    
+   .footer-left {
+     text-align: center;
+     margin: auto; 
+     padding-top: 10px;
+      
+   }
+    
+   .footer-right {
+     float: none;
+     text-align: center;
+     
+   }
+  }
