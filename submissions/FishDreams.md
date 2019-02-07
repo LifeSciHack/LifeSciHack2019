@@ -43,16 +43,13 @@ The software is designed to be a mobile-first responsive web application. The fo
 1. MS SQL
 
 
+### Acknoledgements
+Sarah Price - sarah.price@utexas.edu
+Adriana Cardenas - adri.cardenas@utexas.edu
+CJ Fraher - fraher@gmail.com
+Jessica Moore Bonner - tsumakiri@gmail.com
+Reva Schweitzer - revaschweitzer@gmail.com
 
 
-
-
-**Acknoledgements**
-Sarah Price
-Adriana Cardenas
-CJ Fraher
-Jessica Moore Bonner
-Reva Schweitzer
-
-###License
+### License
 License Type: <a href='https://opensource.org/licenses/MIT'>MIT License</a>
