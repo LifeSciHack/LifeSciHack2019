@@ -1,5 +1,4 @@
 
-![Hackathon](../imgs/LifeSciHackLogo_Black.png)
 <p align="center">
   <h2 align="center">Product & Prototype Roadmap</h2>
   <p align="center">Roadmap to bulding a scalable prototype in 2019</p>
